@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SpringFabMenu"><attr format="reference" name="sfm_src_icon"/><attr format="enum" name="sfm_size_menu_button">
+            <enum name="normal" value="0"/>
+            <enum name="mini" value="1"/>
+        </attr><attr format="boolean" name="sfm_collapse_on_item_selected"/><attr format="integer" name="sfm_expand_duration"/><attr format="integer" name="sfm_collapse_duration"/><attr format="integer" name="sfm_expand_item_rotation_degrees"/><attr format="integer" name="sfm_expand_menu_button_rotation_degrees"/><attr format="dimension" name="sfm_spacing_menu_items"/><attr format="integer" name="sfm_delay_expanding_menu_items"/><attr format="color" name="sfm_menu_button_color"/><attr format="color" name="sfm_menu_button_ripple_color"/></declare-styleable>
+    <string name="app_name">SpringFabMenu</string>
+    <string name="appbar_springfabmenu_behavior">com.rany.albeg.wein.springfabmenu.SpringFabMenu$SpringFabMenuBehavior</string>
+</resources>

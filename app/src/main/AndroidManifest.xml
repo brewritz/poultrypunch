@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gurukul.poultrypunch">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:noHistory="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoTitleBar"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".readFile"
+            android:label="@string/title_activity_read_file"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Newslist"
+            android:label="@string/title_activity_newslist"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".startOnBoard"
+            android:label="Poultry Punch"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ArticlesList"
+            android:label="@string/title_activity_articles_list"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".NewsDetail"
+            android:label="@string/title_activity_news_detail"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".navigate"
+            android:label="@string/title_activity_navigate"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Team"
+            android:label="@string/title_activity_team"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".contactus"
+            android:label="@string/title_activity_contactus"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AboutUs"
+            android:label= "@string/title_activity_about_us"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+    </application>
+
+</manifest>

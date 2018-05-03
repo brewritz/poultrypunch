@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Poultry Punch</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dashboard">Poultry Punch</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_read_file">readFile</string>
+    <string name="title_activity_newslist">News</string>
+    <string name="title_activity_start_on_board">Poultry Punch</string>
+    <string name="title_activity_articles_list">Articles List</string>
+    <string name="title_activity_news_detail">Poultry Punch</string>
+    <string name="title_activity_navigate">navigate</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_team">Team</string>
+    <string name="bsrana_team">He started his own poultry publication in 1974. He is the founder member and associated with Poultry India exhibition since last 10 years. He is also the member of Exhibition Advisory Committee (EAC) of Poultry India exhibition</string>
+    <string name="pankaj_team">Mr Pankaj Rana is the Marketing Director of the company. He takes care of the Marketing in the North and Eastern region of India</string>
+    <string name="indrarana_team">Mrs Indra Rana is Director Communications and manages the day to day communications at various platforms</string>
+    <string name="title_activity_contactus">ContactUs</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_about_us">AboutUs</string>
+    <string name="aboutus">We take pleasure to introduce ourselves as Poultry Punch incorporated in 1984 and we are in poultry media since last 34 years and publish Poultry Punch (Monthly English magazine). We have extensive circulation of around 14,000 monthly magazine throughout India, SAARC and Gulf countries. This is the only poultry magazine with such a colossal readership base. We have a long range of advertisers, who have benefited immensely in their business by being associated with us. These advertisers encompass pharmaceuticals, poultry equipment manufacturers, feed manufacturers, Processing companies, raw material suppliers and integrators, etc.
+
+We also have a sister publication by the name of –Poultry Manch, which is a Hindi monthly magazine and has extensive circulation throughout India but more concentrated in the Hindi speaking and understanding belt of India. These states include: Uttar Pradesh, Uttarakhand, Madhya Pradesh, Chattisgarh, Jharkhand, Bihar, Delhi, Punjab, Haryana, Rajasthan etc.
+
+Ours is the only poultry magazine in India that comprises 96 pages and boasts of exhaustive inclusion of news and articles. The news mainly caters to the happenings in the Indian subcontinent and also includes from the Asian and global region. The articles are specifically related to various aspects of poultry production and are authored by poultry experts and the language is easy to understand even by the common man.
+
+We also publish write up, interviews of different poultry companies and prominent poultry figures from time to time. We extend our loyal support to our advertisers and authors in every possible way. A far as quality is concerned, we strictly abide by quality published material, while the paper and print quality is also exceptional. Our magazine depicts the best presentation in every term and hence it is the top ranking poultry magazine in India. We have maintained a strong battery of correspondents across India who pour in news at our office.
+
+In our aspiration to promote poultry knowledge in India we have also published a Poultry Directory, Books on Poultry Disease and Applied Broiler Production etc.
+
+The company management is totally dedicated to the cause of poultry upliftment not only in India but globally as well. In this endeavour, our management supports and attends different poultry events organized in India and foreign countries. To understand and work at the grass root levels, we work in close co ordination with diverse poultry associations and highlight their problems and appreciate their achievements.</string>
+</resources>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/headerOfListFees"
+
+    android:layout_below="@+id/searchList"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    card_view:cardCornerRadius="44dp"
+    android:layout_marginTop="10dp"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        android:id="@+id/alist"
+     >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:padding="20dp"
+            android:background="@drawable/bckgrnd"
+            android:id="@+id/blist"
+            >
+
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+
+            android:id="@+id/thumbnail"
+            android:background="@drawable/bckgrnd"
+         />
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="90dp"
+            android:text="News data not available now"
+            android:layout_toRightOf="@+id/thumbnail"
+            android:id="@+id/TitlePoultry"
+            android:layout_marginLeft="5dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="Registration Id"
+            android:layout_below="@+id/thumbnail"
+            android:padding="10dp"
+            android:id="@+id/subHeadingPoultry"
+            />
+
+        <TextView
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:text="Read more ..."
+            android:layout_below="@+id/subHeadingPoultry"
+            android:padding="10dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:id="@+id/readmore"
+            />
+
+        </RelativeLayout>
+        <com.android.volley.toolbox.NetworkImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/blist"
+            android:background="@drawable/newsedited"
+            android:scaleType="centerCrop"
+            android:id="@+id/advertisment"
+
+            />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
